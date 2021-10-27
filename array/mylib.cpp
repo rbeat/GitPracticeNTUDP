@@ -1,8 +1,7 @@
-#include <iostream>
-using namespace std;
+#include "mylib.h"
 
 int main(){
-	int mas[10] = {0};
-	for(auto v : mas) cout << v << endl;
+	int mas[] = {0,1,2,3,4};
+	int size = sizeof(mas)/sizeof(*mas);
 	return 0;
 }
